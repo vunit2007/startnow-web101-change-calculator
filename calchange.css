@@ -1,0 +1,60 @@
+h1
+{
+  text-align: center;
+}
+
+#totalAmount
+{
+  float:left;
+  width:40%;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+
+#amount-due
+{
+    margin-bottom: 10px;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-size: 100%;
+    color: #228B22; 
+    font-style: bold;
+  }
+  
+#customerGives
+{
+  float:right;
+  width:40%;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+
+#amount-received
+{
+  margin-bottom: 10px;
+  width: 70%;
+  height: 30px;
+  text-align: center;
+  font-size: 100%;
+  color: #228B22; 
+  font-style: bold;
+}
+
+
+#dollarChanges {
+  font-size: 20px;
+  text-align: center;
+  width:90%;
+  background-color: #d3d3d3;
+  margin: auto;
+}
+
+#coinChanges {
+  font-size: 20px;
+  text-align: center;
+  width:90%;
+  background-color: #d3d3d3;
+  margin: auto;
+  
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="calchange.css">
+      <title>Change Calculator</title>
+    </head>
+    
+    <body>
+      <h1>Change Calculator</h1>
+       <div id="moneyInput">
+     
+      <div id="totalAmount">
+        <p id="moneyInputFont">How much is due for the sale?</p> 
+        <input type="text" id="amount-due" placeholder=$ />
+      
+      </div>
+    
+      <div id="customerGives"> 
+        <p id="moneyInputFont"> How much has the customer given you?</p>
+        <input type="text" id="amount-received" placeholder=$ />
+        </div>
+    </div><br><br><br><br><br>
+
+    <center><div id="buttonsec"><button type="button" id="calculate-change" onclick="handleClickEvent()">Calculate</button></div></center><br>
+
+      <table id="dollarChanges">
+        <tr>
+            <td>Dollars</td>
+        </tr>
+        <tr>
+          <td><p id="dollars-output"></p></td>
+        </tr>
+    </table><br>
+      <table id="coinChanges">
+        <tr>
+            <td>Quarters</td>
+            <td>Dimes</td>
+            <td>Nickles</td>
+            <td>Pennies</td>
+        </tr>
+        <tr>
+            <td><p id="quarters-output"></p></td>
+            <td><p id="dimes-output"></p></td>
+            <td><p id="nickels-output"></p></td>
+            <td><p id="pennies-output"></p></td>
+        </tr>
+    </table> 
+      <script src="main.js" charset="utf-8"></script>
+      </body>
+    </html>
